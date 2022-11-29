@@ -1,4 +1,6 @@
-<div class="row">
+
+<app-spinner *ngIf="loading"></app-spinner>
+<div class="row" *ngIf="!loading">
     <div class="col-lg-8 offset-lg-2">
         <div class="card" style="width: 25rem; margin: 0 auto; border-radius: 40px;">
             <img src="http://placeimg.com/640/480/people/grayscale" alt="" class="card-img-top img-thumbnail" style="border-radius: 40px">

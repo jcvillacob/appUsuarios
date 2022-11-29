@@ -21,18 +21,16 @@ export class UsuarioComponent implements OnInit {
    }
 
   ngOnInit(): void {
-    console.log(this.id)
     this.getUsuario();
-    
   }
 
   getUsuario(): void{
     this.usuarioService.getUsuario(this.id).subscribe(data => {
-      console.log(data);
       this.email = data.email;
       this.gender = data.gender;
       this.name = data.name;
       this.status = data.status;
+      this.loading = false;
     })
   }
 
