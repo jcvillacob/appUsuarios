@@ -13,7 +13,7 @@ export class CardUsuarioComponent implements OnInit {
   id = 0;
   name = "";
   status = "";
-  imgUrl = "http://placeimg.com/640/480/people/grayscale";
+  imgUrl = "http://drive.google.com/uc?export=view&id=11bZS315seO05sF2Hs9nd1vAi7k-kgnK0";
 
   constructor() {}
 
