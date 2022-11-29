@@ -2,10 +2,10 @@
 <app-spinner *ngIf="loading"></app-spinner>
 <div class="row" *ngIf="!loading">
     <div class="col-lg-8 offset-lg-2">
-        <div class="card" style="width: 25rem; margin: 0 auto; border-radius: 40px;">
-            <img src="http://placeimg.com/640/480/people/grayscale" alt="" class="card-img-top img-thumbnail" style="border-radius: 40px">
+        <div class="card" style="width: 25rem; margin: 0 auto; border-top-right-radius: 40px; border-top-left-radius: 40px;">
+            <img src="http://placeimg.com/640/480/people/grayscale" alt="" class="card-img-top img-thumbnail" style="border-top-right-radius: 40px; border-top-left-radius: 40px">
             <div class="card-body text-center">
-                <h5 class="card-title">{{ name }}</h5>
+                <h5 class="card-title" style="font-size: 1.5rem;">{{ name }}</h5>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Email: {{email}}</li>
                     <li class="list-group-item">Genero: {{gender}}</li>

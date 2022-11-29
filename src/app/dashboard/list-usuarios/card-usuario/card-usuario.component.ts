@@ -13,7 +13,7 @@ export class CardUsuarioComponent implements OnInit {
   id = 0;
   name = "";
   status = "";
-  imgUrl = "http://drive.google.com/uc?export=view&id=11bZS315seO05sF2Hs9nd1vAi7k-kgnK0";
+  imgUrl = "https://caracoltv.brightspotcdn.com/dims4/default/65bd6b2/2147483647/strip/true/crop/1200x1200+0+0/resize/1000x1000!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2F66%2Ff6%2F290a3c1346f4bffb68e865444239%2Finglaterra-vs-estados-unidos.jpg";
 
   constructor() {}
 
